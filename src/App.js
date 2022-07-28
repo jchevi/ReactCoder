@@ -1,10 +1,10 @@
-import './App.css';
-import NavBar from "NavBar"
+import React from "react"
+import Header from "./Header"
 
-function App() {
+export default function App() {
   return (
     <>
-    <NavBar/>
+      <Header />
       <main>
         <h2>Home</h2>
       </main>
@@ -14,5 +14,3 @@ function App() {
     </>
   );
 }
-
-export default App;
