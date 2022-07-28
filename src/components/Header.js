@@ -1,4 +1,5 @@
 import React from 'react';
+import CartWidget from './CartWidget';
 
 export default function Header() {
   return (
@@ -10,6 +11,7 @@ export default function Header() {
           <li><a href="#">link 1</a></li>
           <li><a href="#">link 2</a></li>
         </ul>
+        <CartWidget />
       </nav>
     </header>
   );

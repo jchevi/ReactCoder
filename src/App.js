@@ -1,12 +1,13 @@
 import React from "react"
 import Header from "./Header"
+import ItemListContainer from "./ItemListContainer"
 
 export default function App() {
   return (
     <>
       <Header />
       <main>
-        <h2>Home</h2>
+        <ItemListContainer nombre="Ricardo"/>
       </main>
       <footer>
         <p>footer</p>
