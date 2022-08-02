@@ -1,4 +1,5 @@
 import React from 'react';
+import Nav from "./Nav";
 import CartWidget from './CartWidget';
 
 export default function Header() {
@@ -7,10 +8,8 @@ export default function Header() {
       <nav className="nav-bar">
         <img src="" className="nav-logo" />
         <h1>MercadoSneakers</h1>
-        <ul>
-          <li><a href="#">link 1</a></li>
-          <li><a href="#">link 2</a></li>
-        </ul>
+        <span className='material-symbols-outlined'>shopping_cart</span>
+        <Nav />
         <CartWidget />
       </nav>
     </header>
